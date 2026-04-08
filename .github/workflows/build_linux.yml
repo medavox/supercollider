@@ -5,6 +5,8 @@ on:
       sc-version:
         required: true
         type: string
+  workflow_dispatch:
+    
 
 jobs:
   build-linux:
